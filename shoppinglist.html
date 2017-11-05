@@ -1,3 +1,14 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <script src="./node_modules/angular/angular.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/w3.css">
+    <link rel="stylesheet" href="./assets/css/w3-theme-teal.css">
+  </head>
+<body>
+
+
 <script>
   let app = angular.module("myShoppingList", []);
   app.controller("myCtrl", function($scope) {
@@ -29,3 +40,7 @@
     <button ng-click="addItem()">Add</button>
     <p>{{errortext}}</p>
 </div>
+
+
+</body>
+</html>
